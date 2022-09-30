@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>City Bakery</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                background-image: url('./images/wood.jpg');
+                margin: 0;
+            }
+            header {
+                display: flex;
+                justify-content: center;
+                position: relative;
+            }
+            label {
+                position: absolute;
+                text-align: center;
+                top: 20px;
+                font-size: 40px;
+            }
+            nav {
+                position: absolute;
+                display: block;
+                text-align: center;
+                top: 110px;
+                background-color: rgb(255, 243, 228);
+                font-size: 20px;
+                padding: 5px 250px;
+                margin: 0;
+            }
+            a {
+                color:black;
+                text-decoration: none;
+                padding: 5px 40px;
+            }
+            a:active {
+                color: rgb(255, 243, 228);
+                background-color: black;
+            }
+            a:hover {
+                background-color:rgb(246, 236, 198);
+            }
+            main {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+            }
+            .mainImg {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                border: 5px solid rgb(255, 243, 228);
+            }
+            .brownies {
+                position: absolute;
+                top: -100px;
+                left: 163px;
+                border: 5px solid rgb(255, 243, 228);
+            }
+            .cookies {
+                position: absolute;
+                top: 155px;
+                left: 163px;
+                border: 5px solid rgb(255, 243, 228);
+            }
+            .info {
+                position: absolute;
+                top: 60px;
+                left: 650px;
+                color: black;
+                background-color: rgb(255, 243, 228);
+            }
+            main > div > p {
+                font-size: 20px;
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <label><b>CITY BAKERY</b></label>
+            <img src="./images/label.png" alt="label">
+            <nav> 
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">MENU</a>
+                <a href="">CONTACT</a>
+            </nav>
+        </header>
+        <main>
+            <img src="./images/pastry.jpg" class="mainImg">
+            <div class="cookies">
+                <img src="./images/brownies.jpg" class="brownies">
+                <img src="./images/cookies.jpg" class="cookies">
+            </div>
+            <div class="info">
+                <h1>
+                    WELCOME
+                </h1>
+                <p>
+                    Here at The City Bakery, 
+                    baking is our passion. We use 
+                    only the finest and the freshest 
+                    ingredients to create pastries 
+                    that will fill your belly and warm 
+                    your heart. Come and visit - 
+                    your taste buds will thank you!
+                </p>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
